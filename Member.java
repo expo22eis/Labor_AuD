@@ -1,8 +1,5 @@
-
-import java.io.File;
-import java.io.LineNumberReader;
 import java.time.LocalDate; //Importiert LocalDate, um später darauf zuzugreifen.
-import java.io.FileReader;
+
 
 class Member{
 
