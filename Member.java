@@ -1,3 +1,6 @@
+
+package de.ostfalia.aud.ss25.base;
+
 import java.time.LocalDate; //Importiert LocalDate, um später darauf zuzugreifen.
 
 
