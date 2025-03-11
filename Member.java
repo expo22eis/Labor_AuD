@@ -49,7 +49,7 @@ class Member{
         public boolean equals(Object o){    //Gibt zurück, ob es sich um den gleichen Member handelt.
 
             Member objectToCompare = (Member) o;    //Das Casten war nötig, um auf die Klassenmethode getId() zuzugreifen.
-            return this.id.equals(objectToCompare.getId());
+            return this.id.toLowerCase().equals(objectToCompare.getId().toLowerCase());
         }
 
         @Override   //Gibt die Daten im CSV-Format zurück.
